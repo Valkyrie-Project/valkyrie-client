@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/valkyrie-client/static/css/main.cc17ced9.css",
-    "main.js": "/valkyrie-client/static/js/main.ea2c78dd.js",
+    "main.js": "/valkyrie-client/static/js/main.0da3d260.js",
     "static/js/787.7eb7a593.chunk.js": "/valkyrie-client/static/js/787.7eb7a593.chunk.js",
     "index.html": "/valkyrie-client/index.html",
     "main.cc17ced9.css.map": "/valkyrie-client/static/css/main.cc17ced9.css.map",
-    "main.ea2c78dd.js.map": "/valkyrie-client/static/js/main.ea2c78dd.js.map",
+    "main.0da3d260.js.map": "/valkyrie-client/static/js/main.0da3d260.js.map",
     "787.7eb7a593.chunk.js.map": "/valkyrie-client/static/js/787.7eb7a593.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cc17ced9.css",
-    "static/js/main.ea2c78dd.js"
+    "static/js/main.0da3d260.js"
   ]
 }
