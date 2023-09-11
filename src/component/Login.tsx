@@ -12,7 +12,7 @@ const Login = () => {
   };
 
   return (
-    <div className="flex h-full w-full flex-col bg-gradient-to-tl from-zinc-800 to-zinc-600 sm:h-screen">
+    <div className="flex h-screen w-full flex-col bg-gradient-to-tl from-zinc-800 to-zinc-600">
       <Header />
       <div className="flex h-fit flex-col items-center sm:px-0">
         <div className="my-8 flex h-full w-5/6 rounded-lg bg-zinc-900 sm:my-10 md:w-3/5 xl:w-2/6">
