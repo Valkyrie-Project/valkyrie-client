@@ -22,6 +22,8 @@ RUN npm run build
 
 # ---- Release ----
 FROM nginx:alpine AS release
+# Copy Nginx configuration
+COPY nginx.conf /etc/nginx/conf.d/default.conf
 # Copy production build from build stage
 COPY --from=build /app/build /usr/share/nginx/html
 # Expose port 80
