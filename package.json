@@ -16,7 +16,7 @@
     "lint": "eslint . --ext .ts,.tsx",
     "format": "prettier --check \"src/**/*.{js,jsx,ts,tsx,json,css,scss,md}\"",
     "format:fix": "prettier --write \"src/**/*.{js,jsx,ts,tsx,json,css,scss,md}\"",
-    "type-check": "tsc src/**/* --noEmit --jsx react-jsx --skipLibCheck",
+    "type-check": "tsc src/**/*.{ts,tsx} --noEmit --jsx react-jsx --skipLibCheck",
     "precheck": "npm run type-check && npm run lint && npm run format"
   },
   "eslintConfig": {
