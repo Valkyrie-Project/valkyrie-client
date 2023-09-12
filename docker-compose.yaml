@@ -6,6 +6,9 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: valkyrie-client:latest
+    # to use image from docker hub
+    # replace the local image with the image from docker hub
+    # image: haoranzhangie/valkyrie-client:main
+    image: valkyrie-client:local
     ports:
-      - "80:80"
+      - 80:80
