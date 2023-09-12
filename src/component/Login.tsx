@@ -1,6 +1,5 @@
 import { Link, useNavigate } from "react-router-dom";
 import { APP_NAME, ROUTES } from "../common/constant";
-import Header from "./Header";
 
 const LOGIN_TEXT = "Login to";
 
@@ -12,8 +11,7 @@ const Login = () => {
   };
 
   return (
-    <div className="flex h-screen w-full flex-col bg-gradient-to-tl from-zinc-800 to-zinc-600">
-      <Header />
+    <div className="h-full">
       <div className="flex h-fit flex-col items-center sm:px-0">
         <div className="my-8 flex h-full w-5/6 rounded-lg bg-zinc-900 sm:my-10 md:w-3/5 xl:w-2/6">
           <div className="flex w-full flex-col p-5 sm:p-10">
@@ -32,7 +30,7 @@ const Login = () => {
                     type="email"
                     autoComplete="email"
                     required
-                    className="block w-full rounded-md border-0 bg-zinc-600/60 py-1.5 text-zinc-50 shadow-sm ring-1 ring-inset ring-zinc-500/80 focus:ring-2 focus:ring-inset focus:ring-zinc-50 sm:text-sm sm:leading-6"
+                    className="block w-full rounded-md border-0 bg-zinc-600/60 py-1.5 text-zinc-50 caret-zinc-50 shadow-sm ring-1 ring-inset ring-zinc-500/80 focus:ring-2 focus:ring-inset focus:ring-zinc-50 sm:text-sm sm:leading-6"
                   />
                 </div>
               </div>
@@ -50,7 +48,7 @@ const Login = () => {
                     type="password"
                     autoComplete="current-password"
                     required
-                    className="block w-full rounded-md border-0 bg-zinc-600/60 py-1.5 text-zinc-50 shadow-sm ring-1 ring-inset ring-zinc-500/80 focus:ring-2 focus:ring-inset focus:ring-zinc-50 sm:text-sm sm:leading-6"
+                    className="block w-full rounded-md border-0 bg-zinc-600/60 py-1.5 text-zinc-50 caret-zinc-50 shadow-sm ring-1 ring-inset ring-zinc-500/80 focus:ring-2 focus:ring-inset focus:ring-zinc-50 sm:text-sm sm:leading-6"
                   />
                 </div>
               </div>

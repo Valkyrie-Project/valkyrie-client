@@ -1,5 +1,4 @@
 import { useNavigate } from "react-router-dom";
-import Header from "./Header";
 import { ROUTES } from "../common/constant";
 
 const Home = () => {
@@ -10,8 +9,7 @@ const Home = () => {
   };
 
   return (
-    <div className="flex h-screen w-full flex-col bg-gradient-to-tl from-zinc-800 to-zinc-600">
-      <Header />
+    <div className="h-[calc(100vh-4rem)]">
       <div className="flex h-full w-full items-center justify-center">
         <div>
           <p className="pb-2 text-8xl text-zinc-50">Valkyrie</p>

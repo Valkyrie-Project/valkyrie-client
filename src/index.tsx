@@ -4,11 +4,15 @@ import { RouterProvider } from "react-router-dom";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import router from "./route";
+import Header from "./component/Header";
 
 const root = ReactDOM.createRoot(document.getElementById("root") as HTMLElement);
 root.render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <div className="h-screen w-full bg-gradient-to-r from-zinc-900 via-indigo-900 to-zinc-900">
+      <Header />
+      <RouterProvider router={router} />
+    </div>
   </React.StrictMode>
 );
 
