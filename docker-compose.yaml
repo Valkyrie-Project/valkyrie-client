@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  valkyrie-client:
+    container_name: valkyrie-client-container
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: valkyrie-client:latest
+    ports:
+      - "80:80"
