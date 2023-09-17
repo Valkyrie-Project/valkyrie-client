@@ -9,7 +9,7 @@ import Header from "./component/Header";
 const root = ReactDOM.createRoot(document.getElementById("root") as HTMLElement);
 root.render(
   <React.StrictMode>
-    <div className="h-screen w-full bg-gradient-to-r from-zinc-900 via-indigo-900 to-zinc-900">
+    <div className="h-screen w-full bg-gradient-to-r from-zinc-900 from-10% via-indigo-900 via-50% to-zinc-900 to-90%">
       <Header />
       <RouterProvider router={router} />
     </div>
